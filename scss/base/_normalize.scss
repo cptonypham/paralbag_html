@@ -1,0 +1,35 @@
+.col-xs-5c {
+	width: 20%;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.col-sm-5c {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-5c {
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-5c {
+		width: 20%;
+		float: left;
+	}
+}
+
+
+
+.ionc {
+	font-size: 14px;
+}
+
+.form-control {
+	@include border-radius(0);
+}
